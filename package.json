@@ -1,0 +1,16 @@
+{
+  "name": "tick_tack_toe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js.cmd features/ -r steps/",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "cucumber": "^6.0.5"
+  }
+}
